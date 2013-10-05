@@ -1,6 +1,16 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+aside h3
+{
+    
+}
+
 body
 {
-    font-size:16px;
+    font-size:16px;r
     font-family:sans-serif;
 }
 header
@@ -10,6 +20,7 @@ header
 nav
 {
     background: #123;
+    margin:5px 0px 5px 0px;
 }
 nav ul
 {
@@ -36,7 +47,7 @@ nav ul li a:hover
 }
 article
 {
-    background: #aa9447;
+    background: #ffff3f;
     width:70%;
     float:left;
 }
