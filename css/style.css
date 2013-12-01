@@ -1,0 +1,44 @@
+body
+{
+	font-family: Arial;
+	font-size:16px;
+	margin:0;
+	padding: 0;
+}
+header
+{
+	background-color: #5ea4aa;
+}
+
+header figure img
+{
+	float: right;
+	padding: 0.5em 0.5em 0 0;
+	width: 50px;
+}
+
+header h1
+{
+	color:white;
+	font-size: 3em;
+	text-shadow: 2px 2px #000;
+}
+
+header #opciones
+{
+	display: block;
+	width: 30px;
+}
+
+header p
+{
+	color: orange;
+	font-size: 2em;
+	margin-right: 150px;
+	text-align: right;
+}
+
+section
+{
+	background-color: #dbcd44;
+}

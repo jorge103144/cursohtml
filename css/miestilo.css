@@ -1,0 +1,89 @@
+body
+{
+	background-color: #434343;
+	color: white;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0;
+}
+
+figure
+{
+    display:inline-block;
+    vertical-align:top;
+}
+header h1
+{
+	color: #efefef;
+	font-size: 20px;
+	font-weight: normal;
+}
+header h1
+{
+	display: inline-block;
+	vertical-align: top;
+}
+header
+{
+	background-color: #434343;
+	margin: 0;
+	padding: 0.5em;
+}
+
+header #avatar img
+{
+	width: 80px;
+}
+header #logo img
+{
+	width: 120px;
+}
+
+nav
+{
+   background:#878787;
+}
+nav ul
+{
+    margin:0;
+    padding:0;
+}
+nav ul li
+{
+    display:inline-block;
+    margin:0 1em 0 0;    
+}
+nav ul li a
+{
+    text-decoration:none;
+    display:block;
+    color:white;
+    padding:0.5em 0;
+}
+
+nav #publicar
+{
+    float:right;
+    margin-right:0;
+}
+nav #publicar a
+{
+    background:orange;
+    padding: 0.5em 1em;
+}
+nav ul li a:hover
+{
+    color: red;
+}
+
+nav #cajita a
+{
+	background-color: #22BCE0;
+	padding: 0.5em 0.5em;
+}
+
+
+#titulo_post
+{
+    color: yellow;
+}
