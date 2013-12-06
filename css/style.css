@@ -11,7 +11,7 @@
 
 body
 {
-	font-family: "Yanone Kaffeesatz", sans-serif;
+	font-family: 'Electrolize', sans-serif;
 	font-size:16px;
 	margin:0;
 	padding:0;
@@ -19,12 +19,14 @@ body
 header
 {
 	background-color: #5ea4aa;
+	margin-bottom: 100px;
 }
 
 header h1
 {
 	color:white;
 	font-size: 3em;
+	font-family: 'Oleo Script Swash Caps', cursive;
 	text-shadow: 2px 2px #000;
 }
 
@@ -82,4 +84,14 @@ section article .listado
 section
 {
 	background-color: #dbcd44;
+}
+
+section .flotar
+{
+	border: 2px solid black;
+	background: white;
+	position: relative;
+	top: 30px;
+	left: 200px;
+	width: 150px;
 }
