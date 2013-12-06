@@ -1,20 +1,24 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body
 {
-	font-family: Arial;
+	font-family: "Yanone Kaffeesatz", sans-serif;
 	font-size:16px;
 	margin:0;
-	padding: 0;
+	padding:0;
 }
 header
 {
 	background-color: #5ea4aa;
-}
-
-header figure img
-{
-	float: right;
-	padding: 0.5em 0.5em 0 0;
-	width: 50px;
 }
 
 header h1
@@ -24,20 +28,57 @@ header h1
 	text-shadow: 2px 2px #000;
 }
 
-header #opciones
-{
-	display: block;
-	width: 30px;
-}
-
 header p
 {
-	color: orange;
-	font-size: 2em;
-	margin-right: 150px;
-	text-align: right;
+	color: white;
 }
 
+header figure
+{
+	float: right;
+}
+
+header #social img
+{
+	width: 35px;
+}
+header h1, header #social, header #opciones
+{
+	display: inline-block;
+	vertical-align: top;
+}
+header #opciones
+{
+	border:2px solid red;
+}
+header #opciones img
+{
+	float: left;
+	width: 35px;
+}
+header #opciones figcaption
+{
+	background: #22bce4;
+	height: 35px;
+	float: right;
+	padding: 0 2px;
+}
+header figure #flecha:before
+{
+	content: "\e600";
+}
+
+section article
+{
+	background: white;
+}
+
+section article .listado
+{
+	border: 2px solid red;
+	padding: 0px 10px 10px 10px;
+	margin-top: 10px;
+}
 section
 {
 	background-color: #dbcd44;
