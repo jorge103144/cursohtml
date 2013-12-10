@@ -9,24 +9,37 @@
 	font-style: normal;
 }
 
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 body
 {
-	font-family: 'Electrolize', sans-serif;
+	background: #F5D801;
+	font-family: Arial;
 	font-size:16px;
 	margin:0;
 	padding:0;
 }
 header
 {
-	background-color: #5ea4aa;
-	margin-bottom: 100px;
+	background-color: #FF7400;
 }
 
 header h1
 {
 	color:white;
 	font-size: 3em;
-	font-family: 'Oleo Script Swash Caps', cursive;
 	text-shadow: 2px 2px #000;
 }
 
@@ -37,7 +50,7 @@ header p
 
 header figure
 {
-	float: right;
+	
 }
 
 header #social img
@@ -49,10 +62,6 @@ header h1, header #social, header #opciones
 	display: inline-block;
 	vertical-align: top;
 }
-header #opciones
-{
-	border:2px solid red;
-}
 header #opciones img
 {
 	float: left;
@@ -61,37 +70,54 @@ header #opciones img
 header #opciones figcaption
 {
 	background: #22bce4;
-	height: 35px;
 	float: right;
-	padding: 0 2px;
+	height: 35px;
+	line-height: 35px;
 }
-header figure #flecha:before
+header #opciones .flecha:before
 {
+	color:red;
 	content: "\e600";
+	font-family: "icomoon";
+	font-size: 0.7em;
 }
 
 section article
 {
 	background: white;
+	border-radius: 5px;
 }
 
-section article .listado
+header figure img
 {
-	border: 2px solid red;
-	padding: 0px 10px 10px 10px;
-	margin-top: 10px;
-}
-section
-{
-	background-color: #dbcd44;
+	width: 100px;	
 }
 
-section .flotar
+header figure figcaption:before
 {
-	border: 2px solid black;
-	background: white;
-	position: relative;
-	top: 30px;
-	left: 200px;
-	width: 150px;
+	content:"\e600";
+	font-family: "icomoon";
 }
+
+header figure
+{
+	display: inline-block;
+	vertical-align: top;
+}
+header figure figcaption
+{
+	background: #2CBDF7;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
